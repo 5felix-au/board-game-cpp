@@ -14,3 +14,7 @@ int main() {
     board[0] = 'X';
     board[4] = 'O';
     board[8] = 'X';
+    std::cout << "Tic-Tac-Toe Demo:\n";
+    drawBoard(board);
+    return 0;
+}
